@@ -12,10 +12,10 @@
 // Для расчетов можно воспользоваться приемами математики, вспомнить знания из школы или найти формулу в интернете.
 
 // Решение
-const positionLatitude = 12;        //x1
-const positionLongitude = 23;       //y1
-const destinationLatitude = 34;     //x2
-const destinationLongitude = 55;    //y2
+const positionLatitude = 10;        //x1
+const positionLongitude = 34;       //y1
+const destinationLatitude = 3;     //x2
+const destinationLongitude = 10;    //y2
 
-const distance = Math.sqrt((destinationLatitude - positionLatitude) * 2 + (destinationLongitude - positionLongitude) * 2);
+const distance = Math.sqrt(Math.pow((destinationLatitude - positionLatitude), 2) + Math.pow((destinationLongitude - positionLongitude), 2));
 console.log(distance);             
