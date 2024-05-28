@@ -13,3 +13,35 @@
 // Использование Switch: Научиться использовать оператор switch для выбора действий, основанных на языке пользователя.
 // Вывод приветствия: В зависимости от языка пользователя, вывести в консоль соответствующие приветствия.
 // Примеры приветствий: Необходимо перевести и внедрить несколько вариантов приветствий на разных языках.
+let language = prompt("Введите язык");
+switch (language) {
+    case "en":
+        console.log("Hello handsome!");
+    break;
+    case "ru":
+        console.log("Привет красавчик!");
+    break;
+    case "de":
+        console.log("Hallo Schöner!");
+    break;
+    case "fr":
+        console.log("Salut beauté!");
+    break;
+    case "es":
+        console.log("Hola, guapo!");
+    break;
+    case "it":
+        console.log("Ciao bello!");
+    break;
+    case "he":
+        console.log("היי חתיך!");
+    break;
+    case "tr":
+        console.log("selam yakışıklı!");
+    break;
+    case "ja":
+        console.log("こんにちは、ハンサムです!");
+    break;
+    default:
+        console.log("Меня зовут C-3PO. Я владею более чем шестью миллионами форм общения, но вашего языка я не знаю!");
+}
